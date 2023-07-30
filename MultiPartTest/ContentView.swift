@@ -8,15 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var selectedImage: UIImage? = nil
+        @State private var showImagePicker: Bool = false
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            if let image = selectedImage {
+                Image(uiImage: image)
+                    .resizable()
+                    .scaledToFit()
+            } else {
+                Text("No image selected")
+            }
+            
+            Button(action: {
+                showImagePicker = true
+            }) {
+                Text("Select Image")
+            }
         }
-        .padding()
+        .sheet(isPresented: $showImagePicker) {
+            ImagePicker(selectedImage: $selectedImage, isPresented: $showImagePicker)
+        }
     }
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

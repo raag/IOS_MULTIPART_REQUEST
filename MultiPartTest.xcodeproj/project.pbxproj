@@ -14,6 +14,8 @@
 		FE65195B2A684FDC003B6B20 /* MultiPartTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65195A2A684FDC003B6B20 /* MultiPartTestTests.swift */; };
 		FE6519652A684FDC003B6B20 /* MultiPartTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6519642A684FDC003B6B20 /* MultiPartTestUITests.swift */; };
 		FE6519672A684FDC003B6B20 /* MultiPartTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6519662A684FDC003B6B20 /* MultiPartTestUITestsLaunchTests.swift */; };
+		FE6519742A685231003B6B20 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6519732A685231003B6B20 /* ImagePickerController.swift */; };
+		FE6519782A68595D003B6B20 /* MultipartRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6519772A68595D003B6B20 /* MultipartRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FE6519602A684FDC003B6B20 /* MultiPartTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiPartTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6519642A684FDC003B6B20 /* MultiPartTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPartTestUITests.swift; sourceTree = "<group>"; };
 		FE6519662A684FDC003B6B20 /* MultiPartTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPartTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE6519732A685231003B6B20 /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		FE6519772A68595D003B6B20 /* MultipartRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				FE65194B2A684FD9003B6B20 /* ContentView.swift */,
 				FE65194D2A684FDB003B6B20 /* Assets.xcassets */,
 				FE65194F2A684FDB003B6B20 /* Preview Content */,
+				FE6519732A685231003B6B20 /* ImagePickerController.swift */,
+				FE6519772A68595D003B6B20 /* MultipartRequest.swift */,
 			);
 			path = MultiPartTest;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6519782A68595D003B6B20 /* MultipartRequest.swift in Sources */,
 				FE65194C2A684FD9003B6B20 /* ContentView.swift in Sources */,
+				FE6519742A685231003B6B20 /* ImagePickerController.swift in Sources */,
 				FE65194A2A684FD9003B6B20 /* MultiPartTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
